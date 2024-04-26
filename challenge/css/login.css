@@ -59,3 +59,8 @@ input{
     background-color: #02C2FF;
     color: white;
 }
+
+.txtbtn{
+    text-decoration: none;
+    color: white;
+}
