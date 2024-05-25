@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02C2FF;
+    height: 100vh;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fundo{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
+}
+
+h1{
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label label{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input-label input{
+    height: 25px;
+    width: 245px;
+    border-radius: 8px;
+    border: 1px solid #747474;
+    padding-left: 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.txt-login a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #02C2FF;
+}
+
+.txt-login{
+    margin-bottom: 20px;
+}
+
+.btn-entrar{
+    width: 50%;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #02C2FF;
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (min-width: 0px) and (max-width: 269px){
+    .fundo{
+        width: 200px;
+        height: 250px;
+    }
+
+    .input-label input{
+        width: 150px;
+    }
+
+    .input-label label{
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .btn-entrar{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 270px) and (max-width: 356px){
+    .fundo{
+        width: 200px;
+        height: 250px;
+    }
+
+    .input-label input{
+        width: 150px;
+    }
+
+    .input-label label{
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .btn-entrar{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 356px) and (max-width: 575px){
+    .fundo{
+        width: 300px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .fundo{
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .fundo{
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fundo{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fundo{
+        width: 300px;
+    }
+}

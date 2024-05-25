@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #02C2FF;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}   
+
+
+
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu-img{
+    width: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfil p{
+    padding-left: 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.barra-txt {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.barra-txt input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.barra-txt button {
+    padding: 10px 20px;
+    background-color: #02C2FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}

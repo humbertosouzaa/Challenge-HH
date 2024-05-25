@@ -1,0 +1,440 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}   
+
+.ul{
+    display: none;
+}
+
+ul.show {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style-type: none;
+    width: 80%;
+    height: 100px;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu-img{
+    width: 50px;
+}
+
+.logo{
+    width: 100px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.img1{
+    width: 100%;
+    height: 250px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 20px;
+    color: #02C2FF;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card1{
+    background-color:  #02C2FF;
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card1 p{
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.button1{
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 15px;
+    background-color: white;
+    color: #02C2FF;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+
+.card2{
+    background-color: white;
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+}
+
+.card2 h3{
+    color: #02C2FF;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card2 p{
+    color: #02C2FF;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.button2{
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 15px;
+    background-color:#02C2FF;
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    color: white;
+}
+
+.ul-footer{
+    list-style-type: none;
+    text-align: center;
+}
+
+.ul-footer A{
+    color: white;
+}
+
+
+@media (min-width: 380px) and (max-width: 576px){
+    .card1{
+        height: 290px;
+    }
+
+    .card1 h3{
+        font-size: 20px;
+    }
+
+    .card1 p{
+        font-size: 15px;
+    }
+
+    .button1{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .card2{
+        height: 300px;
+    }
+
+    .card2 h3{
+        font-size: 20px;
+    }
+
+    .card2 p{
+        font-size: 15px;
+    }
+
+    .button2{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:  767px){
+    
+    .card1{
+        height: 200px;
+    }
+
+    .card1 h3{
+        font-size: 20px;
+    }
+
+    .card1 p{
+        font-size: 15px;
+    }
+
+    .card2{
+        height: 220px;
+    }
+
+    .card2 h3{
+        font-size: 20px;
+    }
+
+    .card2 p{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .ul a{
+        text-decoration: none;
+        color: #02C2FF;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .img1{
+        height: 400px;
+    }
+    
+    ul.show{
+        display: none;
+    }
+
+    .card1{
+        height: 260px;
+    }
+
+    .card1 h3{
+        font-size: 25px;
+    }
+
+    .card1 p{
+        font-size: 20px;
+    }
+
+    .button1{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .card2{
+        height: 285px;
+    }
+
+    .card2 h3{
+        font-size: 25px;
+    }
+
+    .card2 p{
+        font-size: 20px;
+    }
+
+    .button2{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .ul a{
+        text-decoration: none;
+        color: #02C2FF;
+        font-size: 20px;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .img1{
+        height: 400px;
+    }
+    
+    ul.show{
+        display: none;
+    }
+    
+    .card1{
+        height: 250px;
+    }
+
+    .card1 h3{
+        font-size: 25px;
+    }
+
+    .card1 p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .button1{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .card2{
+        height: 250px;
+    }
+
+    .card2 h3{
+        font-size: 25px;
+    }
+
+    .card2 p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .button2{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+} 
+
+
+@media (min-width: 1200px){
+    body{
+        font-family: Arial, sans-serif;
+    }    
+    .ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .ul a{
+        text-decoration: none;
+        color: #02C2FF;
+        font-size: 20px;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .img1{
+        height: 700px;
+    }
+    
+    ul.show{
+        display: none;
+    }
+
+    .card1{
+        height: 220px;
+    }
+
+    .card1 h3{
+        font-size: 25px;
+    }
+
+    .card1 p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .button1{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .card2{
+        height: 220px;
+    }
+
+    .card2 h3{
+        font-size: 25px;
+    }
+
+    .card2 p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .button2{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}

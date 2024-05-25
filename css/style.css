@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #02C2FF;
+    height: 100vh;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fundo{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+}
+
+h1{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    margin-top: 15px;
+}
+
+.a-fundo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+.a-item{
+    display: flex;
+    flex-direction: column;
+    background-color: #02C2FF;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.a-item:hover{
+    background-color: #006790;
+    color: white;
+}
+
+@media (min-width: 350px){
+    .fundo{
+         width: 300px;
+ 
+    }
+}
+
+@media (min-width: 100px) and (max-width: 349px){
+    .fundo{
+         width: 200px;
+    }
+}

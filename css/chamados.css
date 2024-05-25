@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #02C2FF;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.ul {
+    display: none;
+}
+
+ul.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style-type: none;
+    width: 80%;
+    height: 100px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #02C2FF;
+}
+
+.menu-img {
+    width: 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.fundo {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fundo h1 {
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fundo p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.input-label label {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input-label input {
+    height: 25px;
+    width: 245px;
+    border-radius: 8px;
+    border: 1px solid #747474;
+    padding-left: 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.fundo a {
+    width: 50%;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #02C2FF;
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.ul-footer {
+    list-style-type: none;
+    text-align: center;
+}
+
+.ul-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 768px){
+    .ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .ul a{
+        text-decoration: none;
+        color: #02C2FF;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .img1{
+        height: 400px;
+    }
+    
+    ul.show{
+        display: none;
+    }
+}
